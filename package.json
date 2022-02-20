@@ -11,7 +11,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "dev": "cross-env NODE_ENV=development node build/index.js && python3 -m http.server --directory dist",
+    "dev": "cross-env NODE_ENV=development node build/index.js && node build/server.js",
     "build": "cross-env NODE_ENV=production node build/index.js"
   },
   "eslintConfig": {
@@ -38,6 +38,7 @@
     "autoprefixer": "^10.4.2",
     "cross-env": "^7.0.3",
     "esbuild": "^0.14.23",
+    "express": "^4.17.3",
     "postcss": "^8.4.6",
     "tailwindcss": "^3.0.23",
     "typescript": "^4.5.5"
