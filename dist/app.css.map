@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/global.css"],
+  "sourcesContent": ["@tailwind base;\r\n@tailwind components;\r\n@tailwind utilities;"],
+  "mappings": "AAAA,eACA,qBACA",
+  "names": []
+}
